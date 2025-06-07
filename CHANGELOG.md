@@ -1,58 +1,58 @@
 # Changelog: Chief Gear Simulator v1.2
 
-**Tanggal Rilis:** 7 Juni 2025
+**Release Date:** June 7, 2025
 
 ---
 
-Versi 1.2 merupakan pembaruan besar yang berfokus pada perombakan total desain visual, perbaikan bug kritis, dan peningkatan pengalaman pengguna secara keseluruhan, baik di desktop maupun mobile.
+Version 1.2 is a major update focusing on a complete visual overhaul, critical bug fixes, and an overall improvement in user experience on both desktop and mobile.
 
-## ✨ Fitur Baru & Peningkatan Visual (Features & Visual Enhancements)
+## ✨ New Features & Visual Enhancements
 
-### 🎨 Desain Ulang Total Tampilan (UI Overhaul)
+### 🎨 Complete UI Overhaul
 
-- Mengganti tema warna lama dengan palet **Violet & Indigo** yang modern, bersih, dan profesional.
-- Memperkenalkan efek **gradient** pada elemen-elemen kunci seperti judul dan tombol untuk tampilan premium.
-- Menggunakan font **Poppins** dari Google Fonts untuk tipografi yang lebih baik di seluruh situs.
+- Replaced the old color theme with a modern, clean, and professional **Violet & Indigo** palette.
+- Introduced a **gradient effect** on key elements like titles and buttons for a premium look.
+- Implemented the **Poppins** font from Google Fonts for improved typography across the site.
 
-### 🏠 Halaman Home yang Sepenuhnya Baru
+### 🏠 Completely New Homepage
 
-- Mengubah halaman Home dari satu blok teks menjadi **landing page** yang terstruktur dengan beberapa bagian: Hero, Deskripsi Fitur, dan Kartu Donasi.
-- Menghapus header navigasi dan menggantinya dengan desain minimalis (hanya logo di atas) untuk pengalaman yang lebih fokus.
-- Menambahkan tombol "call-to-action" yang jelas di dalam kartu deskripsi untuk mengarahkan pengguna langsung ke halaman simulator.
+- Restructured the homepage from a single block of text into a structured **landing page** with several sections: Hero, Features, and a Donation Card.
+- Removed the main navigation header and replaced it with a minimalist design (logo only at the top) for a more focused experience.
+- Added a clear **call-to-action button** within the description card to direct users straight to the simulator.
 
-### 🌟 Animasi Ikon Interaktif
+### 🌟 Interactive Icon Animations
 
-- Menambahkan animasi pada ikon fitur di halaman Home saat kursor diarahkan.
-- Ikon gear (`fa-cogs`) kini berputar secara berlawanan untuk efek mekanik yang realistis, menggunakan kustomisasi SVG.
-- Ikon perisai (`fa-shield-alt`) kini memancarkan efek "aura" atau _glow_ yang halus.
+- Added hover animations to the feature icons on the homepage.
+- The gear icon (`fa-cogs`) now features **counter-rotating gears** for a realistic mechanical effect, implemented using a custom SVG.
+- The shield icon (`fa-shield-alt`) now emits a subtle "aura" or _glow_ effect.
 
-### 🔄 Peningkatan Alur Pengguna (User Flow)
+### 🔄 Improved User Flow
 
-- Halaman simulator kini memiliki tombol "**Back to Home**" yang jelas, menggantikan navigasi header untuk alur yang lebih intuitif.
-- Menata ulang posisi tombol-tombol aksi (⚙️, 🔄, 🧹) agar lebih rapi dan mudah diakses.
+- The simulator page now includes a clear "**Back to Home**" button, replacing the header navigation for a more intuitive flow.
+- Reorganized the positioning of action buttons (⚙️, 🔄, 🧹) for a cleaner layout and easier access.
 
 ---
 
-## 🚀 Perbaikan Bug & Optimasi (Fixes & Optimizations)
+## 🚀 Bug Fixes & Optimizations
 
-- **[FATAL] Bug Upgrade Material 0 Diperbaiki:** Memperbaiki bug kritis di mana pengguna bisa melakukan upgrade meskipun material yang dimiliki adalah 0. Logika pengecekan material telah dikembalikan ke versi asli yang stabil.
+- **[FATAL] Fixed Zero-Material Upgrade Bug:** Corrected a critical bug where users could upgrade gear even with zero required materials. The material validation logic has been restored to the stable, original version.
 
-- **[FATAL] Bug Posisi Preview Diperbaiki:**
+- **[FATAL] Fixed Gear Preview Position Bug:**
 
-  - Menghapus total metode posisi pratinjau gear berbasis JavaScript (`updateGearPreviewPosition`) yang tidak stabil dan menyebabkan posisi "melompat" atau salah tempat.
-  - Menggantinya dengan metode **CSS murni** (`position` + `transform`) yang menjamin posisi pratinjau selalu sempurna dan stabil di semua perangkat.
+  - Completely removed the unstable JavaScript-based positioning method (`updateGearPreviewPosition`) that caused the preview to jump or be misplaced.
+  - Replaced it with a **pure CSS method** (`position` + `transform`) that guarantees a perfectly centered and stable preview on all devices.
 
-- **Bug Sinkronisasi Modal "Set Start Levels":** Memperbaiki masalah di mana modal tidak menampilkan level gear terbaru setelah pengguna melakukan upgrade.
+- **Fixed "Set Start Levels" Modal Sync Bug:** Resolved an issue where the modal did not display the most recent gear levels after an upgrade.
 
-- **Bug Modal Tidak Muncul:** Memperbaiki kesalahan logika JavaScript di mana beberapa modal tidak muncul karena penggunaan class `.show` dan `.hidden` yang tidak konsisten.
+- **Fixed Modals Not Appearing Bug:** Corrected a JavaScript logic error where some modals would not appear. This was fixed by restoring the modal's inner HTML content.
 
-- **Perbaikan Tampilan Mobile Menyeluruh:**
+- **Comprehensive Mobile Responsive Fixes:**
 
-  - Menyesuaikan ukuran font, padding, dan margin di seluruh halaman simulator agar terlihat rapi di layar kecil.
-  - Memastikan tata letak gear tidak lagi terlalu mepet ke pinggir layar.
-  - Memperbaiki ukuran gambar pratinjau yang sebelumnya terlalu besar di perangkat mobile.
+  - Adjusted font sizes, padding, and margins across the simulator page for a clean layout on small screens.
+  - Ensured the gear layout no longer touches the screen edges.
+  - Corrected the size of the preview image, which was previously too large on mobile devices.
 
-- **Peningkatan Lainnya:**
-  - Memperbaiki jarak antar bintang (⭐) pada gear yang sebelumnya terlalu renggang.
-  - Memastikan semua suara (klik, upgrade) berfungsi kembali seperti seharusnya.
-  - Menyatukan semua gaya CSS untuk setiap halaman ke dalam filenya masing-masing (`home.css` dan `gears.css`) untuk menghindari konflik dan mempermudah pengelolaan.
+- **Other Improvements:**
+  - Fixed the spacing between star icons (⭐) on the gear display.
+  - Ensured all sound effects (click, upgrade) are working correctly again.
+  - Created a single, self-contained `gears.css` file to handle all styling for the simulator page, avoiding conflicts.
