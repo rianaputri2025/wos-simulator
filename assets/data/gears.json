@@ -2317,7 +2317,7 @@
         "icon": "assets/images/Finite_Infinitus.png",
         "preview": "assets/images/Finite_Infinitus_No_Background.png",
         "materials": {
-          "Hardened_Alloy": 65000,
+          "Hardened_Alloy": 68000,
           "Polishing_Solution": 810,
           "Design_Plans": 135,
           "Lunar_Amber": 20
