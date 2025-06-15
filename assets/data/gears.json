@@ -499,7 +499,7 @@
         "icon": "assets/images/Frost_Coronet.png",
         "preview": "assets/images/Frost_Coronet_No_Background.png",
         "materials": {
-          "Hardened_Alloy": 65000,
+          "Hardened_Alloy": 68000,
           "Polishing_Solution": 810,
           "Design_Plans": 135,
           "Lunar_Amber": 20
@@ -1105,7 +1105,7 @@
         "icon": "assets/images/Dynastic_Ward.png",
         "preview": "assets/images/Dynastic_Ward_No_Background.png",
         "materials": {
-          "Hardened_Alloy": 65000,
+          "Hardened_Alloy": 68000,
           "Polishing_Solution": 810,
           "Design_Plans": 135,
           "Lunar_Amber": 20
@@ -1711,7 +1711,7 @@
         "icon": "assets/images/Solaris_Incandescence.png",
         "preview": "assets/images/Solaris_Incandescence_No_Background.png",
         "materials": {
-          "Hardened_Alloy": 65000,
+          "Hardened_Alloy": 68000,
           "Polishing_Solution": 810,
           "Design_Plans": 135,
           "Lunar_Amber": 20
@@ -2923,7 +2923,7 @@
         "icon": "assets/images/Conquerors_Cadence.png",
         "preview": "assets/images/Conquerors_Cadence_No_Background.png",
         "materials": {
-          "Hardened_Alloy": 65000,
+          "Hardened_Alloy": 68000,
           "Polishing_Solution": 810,
           "Design_Plans": 135,
           "Lunar_Amber": 20
@@ -3529,7 +3529,7 @@
         "icon": "assets/images/Golden_Zeal.png",
         "preview": "assets/images/Golden_Zeal_No_Background.png",
         "materials": {
-          "Hardened_Alloy": 65000,
+          "Hardened_Alloy": 68000,
           "Polishing_Solution": 810,
           "Design_Plans": 135,
           "Lunar_Amber": 20
