@@ -882,6 +882,10 @@ body.modal-open {
   .box-right .charm-item-container:nth-child(3):hover {
     transform: translateX(-15px) scale(1.1);
   }
+  .form-path-inputs {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
 }
 
 /* Mobile Kecil (<= 360px) */
