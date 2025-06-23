@@ -1,48 +1,44 @@
-# Chief Gear Simulator
+# WOS Simulators: Gear & Charm
 
-Welcome to **Chief Gear Simulator**, a simple yet powerful web-based tool created by [Oriana](https://github.com/orianadev) to help you simulate gear upgrades, calculate total material usage, and plan efficiently based on your in-game progress in **Whiteout Survival**.
+Welcome to **WOS Simulators**, a suite of web-based tools created by [Oriana](https://github.com/rianaputri2025) to help you simulate gear and charm upgrades, calculate total material usage, and plan efficiently in **Whiteout Survival**.
 
-🎯 **Purpose**  
-This simulator is designed purely for planning and calculation. It helps you understand how many materials you’ll need to upgrade your gear to the maximum level — **not for cheating or illegal activity**.
+🎯 **Purpose**
+This simulator is designed purely for planning and calculation. It helps you understand how many materials you’ll need to upgrade your equipment to the maximum level — **not for cheating or illegal activity**.
 
 ---
 
-## 🌟 Features
+## 🌟 Core Features
 
-- 🔧 **Set & Reset Gear Levels** – Easily adjust gear level for each item.
-- 📦 **Input Owned Materials** – Track what materials you currently own.
-- 🔄 **Reset All Materials** – Start over when needed with a single click.
-- 📊 **Total Material Used** – Automatically calculates total material usage as you upgrade.
-- 🎨 **Visual Preview** – See the gear image, tier, and star level as you upgrade.
-- 🔉 **Upgrade Sound Effect** – Audio feedback for upgrades.
-- 💾 **Auto Save to LocalStorage** – Your data is preserved across browser refreshes.
+- 🌐 **Multilingual Support** - Seamlessly switch between English, Indonesian, and Japanese. Your language preference is saved for your next visit.
+- 💾 **Auto Save to LocalStorage** – All your material inputs and level progress are automatically preserved across browser refreshes.
+- 🖼️ **Interactive Modals** - An intuitive, image-based dropdown system for setting start levels, complete with item icons for easy identification.
+- 🎨 **Modern & Responsive UI** - A clean, dark-themed interface that works beautifully on both desktop and mobile devices.
+
+---
+
+### ⚙️ Gear Simulator
+
+- **Full Gear Simulation** – Simulate upgrades for all 6 Chief Gear items across all 42 levels.
+- **Visual Previews** – See the gear image, tier, and star level update in real-time.
+- **Material Management** – Input the materials you own and track your spending automatically.
+
+### ✨ Charm Simulator
+
+- **18-Path Simulation** – Plan upgrades for all 18 Charm Paths (6 Gear Types × 3 Paths each).
+- **Dedicated Material Tracking** – A separate system for adding and tracking Charm-specific materials (`Guides`, `Designs`, `Secrets`).
+- **Visual Path Selection** – An interactive, ring-based UI for selecting which Charm Path to upgrade.
 
 ---
 
 ## 🚀 Getting Started
 
-No installation needed — just open the project in a browser:
+No installation needed — just open the project's landing page in a browser:
 https://bit.ly/chief-gear-simulator
 
 Or clone this repo and run it locally:
 
 ```bash
-git clone https://github.com/your-username/chief-gear-simulator.git
-cd chief-gear-simulator
+git clone [https://github.com/rianaputri2025/wos-simulator.git](https://github.com/rianaputri2025/wos-simulator.git)
+cd wos-simulators
 # Open index.html in your browser
-
-🤝 Support the Developer
-If you find this tool helpful and would like to support my work, feel free to donate!
-This is not mandatory — it's simply a way to show your appreciation and support future updates ❤️
-
-🌍 International Donation (USD):
-👉 https://ko-fi.com/orianadev (No login required)
-
-📜 License
-This project is open-source
-
-👋 About Me
-Hi! I'm Oriana, a solo developer passionate about tools that enhance gaming experience and productivity.
-Feel free to explore, fork, and contribute! ✨
-
-I'm planning more tools and simulators in the future — follow me on GitHub and stay updated 🚀
+```
