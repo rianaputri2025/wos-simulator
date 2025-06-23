@@ -75,7 +75,7 @@
   "material_lunar_amber": "Lunar Amber",
   "alert_material_limit_exceeded": "Material amount cannot exceed 9,999,999.",
   "charm_simulator_title": "Charm Simulator",
-  "charms_set_start_levels": "Set Start Levels (0-16)",
+  "charms_set_start_levels": "Set Start Levels",
   "charms_left_side": "LEFT",
   "charms_right_side": "RIGHT",
   "charms_path": "Path",

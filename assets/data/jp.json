@@ -75,7 +75,7 @@
   "material_lunar_amber": "月光琥珀",
   "alert_material_limit_exceeded": "素材の量は9,999,999を超えることはできません。",
   "charm_simulator_title": "チャームシミュレーター",
-  "charms_set_start_levels": "開始レベル設定 (0-16)",
+  "charms_set_start_levels": "開始レベル設定",
   "charms_left_side": "左側",
   "charms_right_side": "右側",
   "charms_path": "パス",
